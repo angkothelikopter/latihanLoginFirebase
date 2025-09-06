@@ -56,10 +56,7 @@ window.login = async function () {
     statusEl.style.color = "green";
 
     
-    setTimeout(() => {
-      window.location.href = "dashboard.html";
-    }, 1000);
-
+  
   } catch (err) {
     statusEl.innerText = "❌ " + err.message;
     statusEl.style.color = "red";
